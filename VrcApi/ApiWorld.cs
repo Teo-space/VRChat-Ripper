@@ -58,7 +58,8 @@ namespace VRC.API
 		public int publicOccupants { get; set; }
 		public int privateOccupants { get; set; }
 		public int occupants { get; set; }
-		public string[] instances { get; set; }
+		[JsonConverter(typeof(ApiWorldInstanceConverter))]
+		public ApiWorldInstance[] instances { get; set; }
 
 
 		public override string ToString()

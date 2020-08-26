@@ -791,7 +791,8 @@ namespace Ripper
 
 			return true;
 		}
-
+		// TODO: FIXME
+		/*
 		public ApiUser GetUser(VrcId id)
 		{
 			String compressedId = id.Guid.ToString("N");
@@ -861,7 +862,7 @@ namespace Ripper
 				}
 			}
 		}
-
+		*/
 		public void MarkAsDeleted(VrcId id)
 		{
 				if (!InternalIsOpen())

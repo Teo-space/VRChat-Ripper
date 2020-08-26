@@ -27,7 +27,6 @@ namespace VRC.API
 		public int version { get; set; }
 		public bool featured { get; set; }
 		public ApiUnityPackage[] unityPackages { get; set; }
-		public bool unityPackageUpdated { get; set; }
 		public string unityPackageUrl { get; set; }
 		public JObject unityPackageUrlObject { get; set; }
 

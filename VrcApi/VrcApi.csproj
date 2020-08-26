@@ -48,6 +48,7 @@
     <Compile Include="ApiConfig.cs" />
     <Compile Include="ApiEvent.cs" />
     <Compile Include="ApiFriendStatus.cs" />
+    <Compile Include="ApiWorldInstance.cs" />
     <Compile Include="ApiNotification.cs" />
     <Compile Include="ApiPlayerModeration.cs" />
     <Compile Include="ApiSelfUser.cs" />
@@ -56,6 +57,7 @@
     <Compile Include="ApiUserTag.cs" />
     <Compile Include="ApiWorld.cs" />
     <Compile Include="ApiWorldMenu.cs" />
+    <Compile Include="Converters\ApiWorldInstanceConverter.cs" />
     <Compile Include="Converters\DateTimeConverter.cs" />
     <Compile Include="Converters\VrcIdConverter.cs" />
     <Compile Include="Converters\UserTagConverter.cs" />
